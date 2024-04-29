@@ -2,7 +2,7 @@ import requests
 import csv
 
 headers = {
-    'Authorization': 'BEARER eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDIwMDAzNDIsInR5cGUiOiJleHRlcm5hbCIsInVzZXIiOiJyYXBoYW5pY2Fpc2VAZ21haWwuY29tIn0.LUbh29u8bhczmrSs-unifDSdTEbvlkFCdoC0g9l8_eSTIofvlIDFjqU5AXx_rX-EzqYW31-GEP7sLD2-Q2HIAg'
+    'Authorization': 'BEARER (insert token https://estadisticasbcra.com/api/registracion)'
 }
 
 def usd_a_csv(nombre_archivo, url_api):
